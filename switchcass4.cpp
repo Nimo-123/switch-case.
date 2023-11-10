@@ -11,10 +11,10 @@ int main() {
     cout << "4. End" << endl;
 
     while (choice != '4') {
-        cout << "Enter your choice (1-4): ";
+        cout << "Enter your choice (1-4): "; // acquiring user choices
         cin >> choice;
 
-        switch (choice) {
+        switch (choice) {   // calculating the total cost based on the choices selected
             case '1':
                 cout << "You selected Mushroom burger. Cost: $3.99" << endl;
                 totalcost += 3.99;
